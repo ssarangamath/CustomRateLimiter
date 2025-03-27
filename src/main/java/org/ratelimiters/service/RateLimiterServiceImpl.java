@@ -1,9 +1,9 @@
 package org.ratelimiters.service;
 
-import org.ratelimiters.business.impl.Config.RateLimitConfig;
-import org.ratelimiters.business.impl.RateLimiterStrategy;
-import org.ratelimiters.business.impl.algorithms.RateLimiterAlgorithm;
-import org.ratelimiters.business.impl.algorithms.RateLimiterFactory;
+import org.ratelimiters.business.Config.RateLimitConfig;
+import org.ratelimiters.business.RateLimiterStrategy;
+import org.ratelimiters.business.algorithms.RateLimiterAlgorithm;
+import org.ratelimiters.business.algorithms.RateLimiterFactory;
 import org.ratelimiters.model.ClientRequest;
 
 public class RateLimiterServiceImpl implements RateLimiterService{

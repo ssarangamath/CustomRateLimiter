@@ -1,9 +1,9 @@
-package org.ratelimiters.business.impl.algorithms;
+package org.ratelimiters.business.algorithms;
 
-import org.ratelimiters.business.impl.Config.RateLimitConfig;
-import org.ratelimiters.business.impl.algorithms.RollingWindowAlgorithm.RollingWindowRateLimiterAlgorithm;
-import org.ratelimiters.business.impl.algorithms.TokenBucketAlgorithm.TokenBucketRateLimiterAlgorithm;
-import org.ratelimiters.business.impl.RateLimiterStrategy;
+import org.ratelimiters.business.Config.RateLimitConfig;
+import org.ratelimiters.business.algorithms.RollingWindowAlgorithm.RollingWindowRateLimiterAlgorithm;
+import org.ratelimiters.business.algorithms.TokenBucketAlgorithm.TokenBucketRateLimiterAlgorithm;
+import org.ratelimiters.business.RateLimiterStrategy;
 
 public class RateLimiterFactory {
     private static RateLimiterAlgorithm rateLimiter;

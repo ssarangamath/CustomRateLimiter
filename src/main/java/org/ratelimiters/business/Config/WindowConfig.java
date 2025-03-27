@@ -1,4 +1,4 @@
-package org.ratelimiters.business.impl.Config;
+package org.ratelimiters.business.Config;
 
 import lombok.Builder;
 

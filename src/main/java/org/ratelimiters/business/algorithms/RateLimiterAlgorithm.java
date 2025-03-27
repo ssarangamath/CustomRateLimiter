@@ -1,4 +1,4 @@
-package org.ratelimiters.business.impl.algorithms;
+package org.ratelimiters.business.algorithms;
 
 import org.ratelimiters.model.ClientRequest;
 

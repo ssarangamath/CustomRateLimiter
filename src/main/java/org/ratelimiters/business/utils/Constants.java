@@ -1,4 +1,4 @@
-package org.ratelimiters.business.impl.utils;
+package org.ratelimiters.business.utils;
 
 public class Constants {
     // rolling window rate limiter constants

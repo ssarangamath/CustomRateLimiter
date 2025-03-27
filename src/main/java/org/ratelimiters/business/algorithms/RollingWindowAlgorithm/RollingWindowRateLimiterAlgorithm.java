@@ -1,9 +1,9 @@
-package org.ratelimiters.business.impl.algorithms.RollingWindowAlgorithm;
+package org.ratelimiters.business.algorithms.RollingWindowAlgorithm;
 
-import org.ratelimiters.business.impl.Config.RateLimitConfig;
-import org.ratelimiters.business.impl.Config.WindowConfig;
+import org.ratelimiters.business.Config.RateLimitConfig;
+import org.ratelimiters.business.Config.WindowConfig;
 import org.ratelimiters.model.ClientRequest;
-import org.ratelimiters.business.impl.algorithms.RateLimiterAlgorithm;
+import org.ratelimiters.business.algorithms.RateLimiterAlgorithm;
 
 import java.util.LinkedList;
 import java.util.Map;

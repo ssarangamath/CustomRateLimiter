@@ -1,4 +1,4 @@
-package org.ratelimiters.business.impl.algorithms.TokenBucketAlgorithm;
+package org.ratelimiters.business.algorithms.TokenBucketAlgorithm;
 
 public class TokenBucket {
     private int availableTokens;

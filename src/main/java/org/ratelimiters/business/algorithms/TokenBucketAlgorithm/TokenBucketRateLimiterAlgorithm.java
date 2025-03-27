@@ -1,9 +1,9 @@
-package org.ratelimiters.business.impl.algorithms.TokenBucketAlgorithm;
+package org.ratelimiters.business.algorithms.TokenBucketAlgorithm;
 
-import org.ratelimiters.business.impl.Config.RateLimitConfig;
-import org.ratelimiters.business.impl.Config.TokenBucketConfig;
+import org.ratelimiters.business.Config.RateLimitConfig;
+import org.ratelimiters.business.Config.TokenBucketConfig;
 import org.ratelimiters.model.ClientRequest;
-import org.ratelimiters.business.impl.algorithms.RateLimiterAlgorithm;
+import org.ratelimiters.business.algorithms.RateLimiterAlgorithm;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

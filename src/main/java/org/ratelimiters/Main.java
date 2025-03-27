@@ -1,10 +1,10 @@
 package org.ratelimiters;
 
-import org.ratelimiters.business.impl.Config.RateLimitConfig;
-import org.ratelimiters.business.impl.Config.TokenBucketConfig;
-import org.ratelimiters.business.impl.Config.WindowConfig;
+import org.ratelimiters.business.Config.RateLimitConfig;
+import org.ratelimiters.business.Config.TokenBucketConfig;
+import org.ratelimiters.business.Config.WindowConfig;
 import org.ratelimiters.model.ClientRequest;
-import org.ratelimiters.business.impl.RateLimiterStrategy;
+import org.ratelimiters.business.RateLimiterStrategy;
 import org.ratelimiters.service.RateLimiterService;
 import org.ratelimiters.service.RateLimiterServiceImpl;
 
